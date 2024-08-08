@@ -2,18 +2,21 @@
 <img src="https://i.imgur.com/4hzgUaF.jpeg" alt="Azure logo"/>
 </p>
 
-<h1>Lab - Azure Compute and Networking</h1>
+<h1>Lab - Azure Active Directory</h1>
 
 - Simple Steps and Description:
-  
-We're going to set up some virtual computers (VMs) in the cloud using Azure. We'll create a Windows computer and a Linux computer, and then we'll use a tool called Wireshark to see how data moves between them.
 
-- Create a Resource Group: Think of this as a folder where we'll keep our cloud computers.
-- Create a Windows 10 VM: Make a virtual Windows computer.
-- Create a Linux (Ubuntu) VM: Make a virtual Linux computer.
-- Observe Your Virtual Network: Check how these computers are connected in the cloud.
-  
-This lab focuses on creating and managing Azure virtual machines (VMs) and understanding network traffic using tools like Wireshark. You'll create both Windows and Linux VMs, observe different types of network traffic (ICMP, SSH, DHCP, DNS, and RDP), and understand how network security groups (NSGs) can affect this traffic. This lab will help you build fundamental skills in Azure computing and networking, and how to analyze and secure network traffic.<br />
+We'll set up a system called Active Directory on a cloud server. This helps manage users and computers in a network.
+
+- Create a Domain Controller: Make a Windows Server in the cloud to manage the network.
+- Create a Client Computer: Make a Windows 10 computer in the cloud to join the network.
+- Install Active Directory: Set up Active Directory on the server.
+- Create User Accounts: Make accounts for different users.
+- Join the Client Computer to the Domain: Connect the Windows 10 computer to the network
+
+This lab focuses on deploying Active Directory in an Azure environment. You'll set up a Domain Controller and a client machine, configure Active Directory Domain Services, create user accounts, and join the client machine to the domain. This project helps you gain practical experience in managing and deploying Active Directory for user and resource management. <br />
+
+
 
 <h2>Environments and Technologies Used</h2>
 
