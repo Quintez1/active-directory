@@ -16,16 +16,13 @@ We'll set up a system called Active Directory on a cloud server. This helps mana
 
 This lab focuses on deploying Active Directory in an Azure environment. You'll set up a Domain Controller and a client machine, configure Active Directory Domain Services, create user accounts, and join the client machine to the domain. This project helps you gain practical experience in managing and deploying Active Directory for user and resource management. <br />
 
-
-
 <h2>Environments and Technologies Used</h2>
 
 - Azure Portal
-- Windows 10 VM
-- Ubuntu Linux VM
-- Wireshark
-- Network Security Groups (NSGs)
-- Remote Desktop Protocol (RDP)
+- Windows Server 2022 VM (Domain Controller)
+- Windows 10 VM (Client)
+- Active Directory Domain Services (AD DS)
+- PowerShell
 
 <h2>Operating Systems Used </h2>
 
